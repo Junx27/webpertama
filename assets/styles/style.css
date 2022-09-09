@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Secular One, sans-serif;
+    scroll-behavior: smooth;
+    transition: 0.5s ease-in-out;
+}
+p {
+    font-style: italic;
+}
+span {
+    color: #C933E3;
+}
+header {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 30px;
+    background: #FFC300;
+}
+header:hover {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+header.sticky {
+    width: 100%;
+    background: blue;
+}
+#logo {
+    width: 200px;
+    height: auto;
+    padding-left: 20px;
+}
+#menu-icon {
+    width: 8px;
+    height: auto;
+    display: none;
+    cursor: pointer;
+}
+nav {
+    flex-grow: 1;
+    text-align: right;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 10px;
+    transition: 0.5 ease;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover {
+    color: #C933E3;
+}
+main {
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+#content {
+    float: left;
+    width: 75%;
+}
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+aside h2 {
+    text-align: center;
+    background-color: #FFC300;
+    padding: 10px;
+}
+aside h3 {
+    text-align: center;
+}
+#profil {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#table-head {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFC300;
+}
+#table-head th {
+    padding: 10px;
+}
+#table-head td {
+    padding-left: 20px;
+}
+.price-list {
+    padding-top: 40px;
+}
+.info {
+    font-size: 1.5em;
+    text-align: center;
+}
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card img {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.card p {
+    text-align: left;
+    float: right;
+}
+.example {
+    text-align: center;
+    background-color:#FFC300;
+}
+.example1 {
+    display: flex;
+}
+.example1 img {
+    width: 50%;
+}
+.example2 {
+    display: flex;
+}
+.example2 img {
+    width: 50%;
+}
+#order {
+    text-align: right;
+}
+button {
+    padding: 10px;
+    background-color: #FFC300;
+    border: none;
+}
+button:hover {
+    transform: scale(1.2);
+    color: white;
+    border-radius: 10px;
+}
+#btn-text {
+    margin: 0;
+    font-style: normal;
+    font-size: 10px;
+    padding-top: 20px;
+}
+table {
+    text-align: left;
+}
+#price {
+    margin-top: 20px;
+    background-color: #FFC300;
+    padding: 10px;
+}
+#price h2 {
+    text-align: center;
+}
+#member {
+    padding-top: 20px;
+}
+#member h2 {
+    text-align: center;
+    background-color: #FFC300;
+    padding: 10px;
+}
+.box1 {
+    margin-top: 20px;
+    background-color: #FFC300;
+    padding: 10px;
+}
+.box1 h3 {
+    text-align: center;
+}
+.box2 {
+    margin-top: 20px;
+    background-color: #FFC300;
+    padding: 10px;
+}
+.box2 h3 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    background-color: #FFC300;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 200px;
+}
+footer:hover {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    #menu-icon {
+        display: block;
+    }
+    #content {
+        text-align: center;
+        width: 100%;
+        height: auto;
+    }
+    .card {
+        display: block;
+        text-align: center;
+        align-items: center;
+    }
+    .card img {
+        width: 100%;
+    }
+    .card p {
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        height: auto;
+    }
+    nav ul {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        padding-right: 70px;
+        width: 100%;
+        background: white;
+        overflow: hidden;
+    }
+    main {
+        padding-top: 150px;
+    }
+    .info {
+        font-size: 1em;
+        text-align: center;
+    }
+    p {
+        font-size: 14px;
+    }
+    .example1 {
+        align-items: center;
+        flex-direction: column;
+    }
+    .example1 img {
+        width: 100%;
+        padding: 20px;
+    }
+    .example2 {
+        align-items: center;
+        flex-direction: column;
+    }
+    .example2 img {
+        width: 100%;
+        padding: 20px;
+    }
+    #order {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    footer {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+}

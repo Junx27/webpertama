@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <title>webpertama</title>
+</head>
+<body>
+    <header>
+        <img src="assets/images/bacground junx.png" id="logo">
+        <nav id="menu-list">
+            <ul>
+                <li><a href="#design">Design</a></li>
+                <li><a href="#member">Member</a></li>
+                <li><a href="#price">Price</a></li>
+                <li><a href="#order">Order</a></li>
+            </ul>
+        </nav>
+        <img src="assets/images/menu.png" id="menu-icon" onclick="menu()">
+    </header>
+    <main>
+        <div id="content">
+            <div id="design">
+                <div class="info">
+                    <h2>"Design <span>Logo</span>, Remake <span>Logo</span>, Other <span>Design</span>"</h2>
+                    <p>Pelayanan Ramah, <span>Konsultasi 24 Jam</span></p>
+                </div>
+                <div class="card">
+                    <img src="assets/images/1.jpg">
+                    <article class="text">
+                        <h2>SELAMAT <span>DATANG</span> <br>DI JUNX</h2>
+                        <h4><span>Penyedia Jasa Desain Logo</span></h4>
+                        <p>Disini kamu dapat memesan sebuah desain yang dapat <br>kamu gunakan untuk <span>bisnis kamu</span>,<br>mulai dari pembuatan <span>logo sampai desain banner</span>.</p><br>
+                        <h3>Ayo Buruan <span>Order</span> ?!</h3>
+                    </article> 
+                </div><br><br>
+                <h2 class="example" onmouseover="mousein(this)" onmouseout="mouseout(this)">FOR<span> EXAMPLE :</h2>
+                <div class="example1">
+                    <img src="assets/images/2.jpg">
+                    <img src="assets/images/3.jpg">
+                </div>
+                <div class="example2" id="order">
+                    <img src="assets/images/4.jpg">
+                    <img src="assets/images/6.jpg">
+                </div>
+                
+            </div>
+            <div id="order">
+                <button onmouseover="btnin(this)" onmouseout="btnout(this)">ORDER NOW</button>
+                <p id="btn-text"></p>
+            </div>
+        </div>
+        <aside>
+            <h2 onmouseover="mousein(this)" onmouseout="mouseout(this)">PROFIL<span> JUNX</span></h2>
+            <img src="assets/images/founder.JPG" id="profil">
+            <h3 id="price" onmouseover="mousein(this)" onmouseout="mouseout(this)">TRI <span>SAPTONO</span></h3>
+            <table>
+                <tr id="table-head" onmouseover="mousein(this)" onmouseout="mouseout(this)">
+                    <th>Desain Logo <br><span>56%</span></th>
+                    <th>Remake Desain <span>80%</span></th>
+                    <th>Other Desain <span>66%</span></th>
+                </tr>
+            </table><br>
+            <p>"Pendiri <span>JUNX</span> sejak tahun 2018, telah melayani berbagai <span>pembuatan desain logo, remake logo, dan desain</span> lainnya."</p>
+            <article onmouseover="mousein(this)" onmouseout="mouseout(this)"  class="price-list" id="price">
+                <h2 id="member">PRICE<span> LIST</span></h2>
+                <div>
+                    <table>
+                        <tr>
+                            <th><span>Create Design = </span></th>
+                            <td>Rp. 80.000,00</td>
+                        </tr>
+                        <tr>
+                            <th><span>Remake Logo = </span></th>
+                            <td>Rp. 40.000,00</td>
+                        </tr>
+                        <tr>
+                            <th><span>Other Design = </span></th>
+                            <td>Rp.70.000,00</td>
+                        </tr>
+                    </table>
+                </div>
+            </article>
+            <section id="member">
+                <h2 onmouseover="mousein(this)" onmouseout="mouseout(this)">GET<span> MEMBER</span></h2>
+                <div onmouseover="mousein(this)" onmouseout="mouseout(this)" class="box1">
+                    <h3><span>REGULER</span></h3>
+                    <p>Dapatkan keuntungan potongan harga di setiap pemesanan desain, 
+                        harga member reguler Rp. 5.000,00/bln.
+                    </p>
+                </div>
+                <div onmouseover="mousein(this)" onmouseout="mouseout(this)" class="box2">
+                    <h3><span>PREMIUM</span></h3>
+                    <p>Dapatkan keuntungan potongan harga di setiap pemesanan desain dan 
+                        dapatkan berbagai bonus desain. 
+                        harga member reguler Rp. 25.000,00/bln.
+                    </p>
+                </div>
+            </section>
+        </aside>
+    </main>
+    <footer>
+        <h3>Terima Kasih Telah Berkunjung</h3>
+        <h4>directed by &copy; JUNX 2022</h4>
+    </footer>
+    <script src="assets/scripts/script.js"></script>
+</body>
+</html>
