@@ -29,7 +29,7 @@ header:hover {
 }
 header.sticky {
     width: 100%;
-    background: pink;
+    background: white;
 }
 #logo {
     width: 200px;
